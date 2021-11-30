@@ -9,6 +9,6 @@ class StudentController extends Controller
     //
 	function show()
 	{
-		return view(list);
+		return view('home');
 	}
 }
